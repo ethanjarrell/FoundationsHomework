@@ -1,21 +1,98 @@
+
+
+.nav-bar-item {
+  display: inline-block;
+  width: 50px;
+  text-align: left;
+  margin: 5px 2px 2px 2px;
+  padding: 5px 2px 7px 2px;
+}
+.nav-bar-women {
+  display: inline-block;
+  width: 50px;
+  text-align: left;
+  margin: 5px 22px 2px 0px;
+  padding: 5px 0px 7px 0px;
+}
+.Help {
+  display: inline-block;
+  width: 50px;
+  text-align: left;
+  margin: 1px 2px;
+  padding: 1px 2px 25px 2px;
+}
+
+.MyAccount {
+  display: inline-block;
+  width: 85px;
+  text-align: left;
+  margin: 1px 2px;
+  padding: 1px 2px 25px 2px;
+}
+
+.ShoppingCart {
+  display: inline-block;
+  width: 105px;
+  text-align: left;
+  margin: 1px 2px;
+  padding: 1px 2px 25px 2px;
+}
+.menu-link {
+  color: #f0532d;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+}
+.menu-link2 {
+  color: #fa8265;
+  font-family: sans-serif;
+  font-weight: normal;;
+  font-size: 15px;
+  text-decoration: none;
+}
+
 .Quick-Sneakers {
   background-color: #F0522B;
   font-size: 50px;
   font-family: sans-serif;
   font-weight: bold;
   color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5px;
+}
+.Spring-Summer {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5px;
+  font-family: sans-serif;
+  color: #9b351c;
+  font-size: 15px;
 }
 .outercontainer {
   background-color: #F0522B;
+  border-top: 8px solid #e44218;
 }
 .Lorem-Ipsum {
   background-color: #F0522B;
-  font-size: 20px;
+  font-size: 15px;
   font-family: sans-serif;
   color: white;
 }
+.Read-Reviews {
+  background-color: #F0522B;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #9b351c;
+}
 .Exciting-Topic {
-  font-size: 30px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.Exciting-Topic2 {
+  font-size: 15px;
   font-family: sans-serif;
   font-weight: bold;
 }
@@ -24,9 +101,84 @@
   font-family: sans-serif;
   color: gray;
 }
+.Content-Here2 {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: gray;
+}
 .Funny-Sneakers {
   font-size: 25px;
   font-family: sans-serif;
   color: white;
 font-weight: bold;
+}
+
+.logo {
+  width:5%
+}
+
+.large-shoe-image {
+  width: 25px;
+  padding: 10% 25%;
+}
+.B2S {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10px;
+}
+.shoe1 {
+  width: 50%;
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1%;
+}
+.shoe2 {
+  width: 100%;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 25%;
+  margin-top: 1%;
+}
+.Text-Box {
+  align-content: center;
+  width: 50%;
+  height: 50px;
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1%;
+  padding-top: 15px;
+  border-top: dashed 2px #b04a32;
+  border-bottom: dashed 2px #b04a32;
+}
+
+.Middle-Text {
+  width: 50%;
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1%;
+}
+.Buy-Now-120 {
+  width: 50%;
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1%;
+}
+.outercontainer2 {
+  background-color: #F0522B;
+  width: 50%;
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1%;
+
+}
+.Purchase{
+  color: white
 }
