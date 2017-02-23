@@ -179,6 +179,15 @@ font-weight: bold;
   margin-top: 1%;
 
 }
-.Purchase{
-  color: white
-}
+.Buy-Now {
+  text-decoration: none;
+  }
+
+  .OneTwenty {
+    background-color: #F0522B;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
