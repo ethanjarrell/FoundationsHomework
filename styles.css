@@ -2,40 +2,38 @@
 
 .nav-bar-item {
   display: inline-block;
-  width: 50px;
-  text-align: left;
+  text-align: center;
   margin: 5px 2px 2px 2px;
   padding: 5px 2px 7px 2px;
 }
-.nav-bar-women {
-  display: inline-block;
-  width: 50px;
-  text-align: left;
-  margin: 5px 22px 2px 0px;
-  padding: 5px 0px 7px 0px;
-}
+
 .Help {
   display: inline-block;
-  width: 50px;
-  text-align: left;
-  margin: 1px 2px;
+  text-align: right;
+  margin: 1px 2px 1px 25%;
   padding: 1px 2px 25px 2px;
 }
 
 .MyAccount {
   display: inline-block;
-  width: 85px;
-  text-align: left;
+  text-align: right;
   margin: 1px 2px;
   padding: 1px 2px 25px 2px;
 }
 
 .ShoppingCart {
   display: inline-block;
-  width: 105px;
-  text-align: left;
+  text-align: right;
   margin: 1px 2px;
   padding: 1px 2px 25px 2px;
+}
+
+.wrap {
+  position: absolute;
+  right: 50px;
+  width: 25em;
+  top: 0.5em;
+  text-align: right;
 }
 .menu-link {
   color: #f0532d;
@@ -51,15 +49,49 @@
   font-size: 15px;
   text-decoration: none;
 }
-
-.Quick-Sneakers {
-  background-color: #F0522B;
-  font-size: 50px;
+.righty {
+  float: left;
+  width: 40%;
+  margin-left: 3%;
+  margin-right: 2%;
+  margin-bottom: 25px;
+}
+.money {
+  float: right;
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 25px;
+  margin-top: 7px;
+}
+.one {
+  color: white;
+  font-size: 10px;
+  position: absolute;top:
   font-family: sans-serif;
-  font-weight: bold;
+padding-left: 2px;
+  margin-right: 2px;
+}
+.two {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.lefty {
+  float: left;
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 1%;
+  margin-bottom: 25px;
+}
+.Quick-Sneakers {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: normal;;
   color: white;
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: 5%;
   margin-bottom: 5px;
 }
 .Spring-Summer {
@@ -68,49 +100,101 @@
   margin-top: 5px;
   font-family: sans-serif;
   color: #9b351c;
-  font-size: 15px;
+  font-size: 10px;
 }
-.outercontainer {
-  background-color: #F0522B;
-  border-top: 8px solid #e44218;
-}
-.Lorem-Ipsum {
-  background-color: #F0522B;
-  font-size: 15px;
-  font-family: sans-serif;
-  color: white;
-}
-.Read-Reviews {
-  background-color: #F0522B;
-  font-size: 15px;
+.Spring-Summer2 {
+  margin-top: 5px;
   font-family: sans-serif;
   color: #9b351c;
+  font-size: 10px;
 }
-.Exciting-Topic {
-  font-size: 20px;
-  font-family: sans-serif;
-  font-weight: bold;
+.outercontainer {
+   background: linear-gradient(to right, #dd2476, #ff5130);
+  border-top: 8px solid #e44218;
+  width: 100%;
+  display: inline-block;
 }
-.Exciting-Topic2 {
-  font-size: 15px;
-  font-family: sans-serif;
-  font-weight: bold;
-}
-.Content-Here {
-  font-size: 15px;
-  font-family: sans-serif;
-  color: gray;
-}
-.Content-Here2 {
-  font-size: 12px;
-  font-family: sans-serif;
-  color: gray;
-}
-.Funny-Sneakers {
-  font-size: 25px;
+.Lorem-Ipsum {
+  font-size: 10px;
   font-family: sans-serif;
   color: white;
-font-weight: bold;
+  text-align: justify;
+}
+.product {
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  border-bottom: solid 1px #fbc2c3;
+}
+.details {
+  color: #b1290e;
+  border-bottom: solid 4px #fbc2c3;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 25%;
+  padding-top: 50px;
+    padding-bottom: 20px;
+}
+.size {
+  color: #ff512f;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 25px;
+padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 15px;
+}
+.Exciting-Topic {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.Exciting-Topic2 {
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.Content-Here {
+  font-size: 10px;
+  font-family: sans-serif;
+  color: gray;
+  margin-bottom: 15px;
+}
+.Content-Here2 {
+  font-size: 10px;
+  font-family: sans-serif;
+  color: gray;
+  margin-bottom: 15px;
+}
+.Content-Here3 {
+  font-size: 10px;
+  font-family: sans-serif;
+  color: gray;
+  margin-bottom: 75px;
+}
+.sh-re-sh {
+  width: 100%;
+  height: 40px;
+  background-color: #feedec;
+}
+.shop-recommended-shoes {
+  text-align: center;
+  padding-top: 13px;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: black;
+}
+.Funny-Sneakers {
+  font-size: 10px;
+  font-family: sans-serif;
+  color: white;
+font-weight: normal;;
 }
 
 .logo {
@@ -124,36 +208,48 @@ font-weight: bold;
 .B2S {
   color: white;
   display: inline-block;
-  text-align: center;
-  margin-left: 25%;
+  text-align: left;
+  margin-left: 200px;
   margin-right: 25%;
+  margin-bottom: 25px;
   margin-top: 10px;
+  font-size: 10px;
 }
 .shoe1 {
-  width: 50%;
+  width: 75%;
   display: inline-block;
-  margin-left: 25%;
+  margin-left: 200px;
   margin-right: 25%;
   margin-top: 1%;
 }
 .shoe2 {
-  width: 100%;
+  width: 45%;
   display: inline-block;
   margin-left: 0px;
-  margin-right: 25%;
+  margin-right: 0px;
   margin-top: 1%;
 }
 .Text-Box {
-  align-content: center;
+  align-content: center;;
   width: 50%;
   height: 50px;
   display: inline-block;
   margin-left: 25%;
   margin-right: 25%;
-  margin-top: 1%;
-  padding-top: 15px;
-  border-top: dashed 2px #b04a32;
-  border-bottom: dashed 2px #b04a32;
+  margin-top: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+  border-top: dashed 1px #b04a32;
+  border-bottom: dashed 1px #b04a32;
+}
+.Read-Reviews {
+text-align: right;
+float: right;
+display: inline-block;
+  font-size: 10px;
+  font-family: sans-serif;
+  color: #9b351c;
 }
 
 .Middle-Text {
@@ -164,30 +260,47 @@ font-weight: bold;
   margin-top: 1%;
 }
 .Buy-Now-120 {
-  width: 50%;
+  width: 100px;
+  height: 25px;
   display: inline-block;
   margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 1%;
+  margin-right: 0px;
+  margin-top: 0px;
+background-color: white;
+border-radius: 10px;
 }
 .outercontainer2 {
-  background-color: #F0522B;
-  width: 50%;
-  display: inline-block;
-  margin-left: 25%;
-  margin-right: 25%;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 1%;
 
 }
 .Buy-Now {
   text-decoration: none;
+  font-family: sans-serif;
+  color: #ff5130;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 50%;
+  display: inline-block;
+  margin: 6px;
+
   }
 
   .OneTwenty {
-    background-color: #F0522B;
     font-size: 35px;
     font-family: sans-serif;
     font-weight: bold;
     color: white;
     text-decoration: none;
+  }
+  .shoe3{
+    float: left;
+    width: 30%;
+    margin-left: 0px;
+    margin-right: 0px;
   }
