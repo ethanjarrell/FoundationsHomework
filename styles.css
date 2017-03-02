@@ -56,8 +56,9 @@
 
 .righty {
   float: left;
+  display: inline-block;
   width: 35%;
-  margin-left: .5%;
+  margin-left: 0%;
   margin-right: 5%;
   margin-bottom: 25px;
 }
@@ -84,8 +85,9 @@ padding-left: 2px;
 
 .lefty {
   float: left;
+  display: inline-block;
   width: 35%;
-  margin-right: 7%;
+  margin-right: 15%;
   margin-left: 2%;
   margin-bottom: 25px;
 }
@@ -216,7 +218,7 @@ font-weight: normal;;
   display: inline-block;
   text-align: left;
   margin-left: 55%;
-  margin-right: 10%;
+  margin-right: 7%;
   margin-bottom: 25px;
   margin-top: 10px;
   font-size: 13px;
@@ -275,8 +277,21 @@ display: inline-block;
   margin-left: 25%;
   margin-right: 0px;
   margin-top: 0px;
-background-color: white;
+background-color: transparent;
 border-radius: 10px;
+border-style: solid;
+border-width: medium;
+border-color: white;
+}
+.hover {
+  width: 100px;
+  height: 25px;
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: 0px;
+  margin-top: 0px;
+  background-color: white;
+  border-radius: 10px;
 }
 .outercontainer2 {
   width: 100%;
